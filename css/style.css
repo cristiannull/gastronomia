@@ -13,6 +13,7 @@ main {
   margin: 0 auto;
   max-width: 1000px;
   padding: 25px;
+  border-radius: 10px;
 }
 #intro {
   margin: auto;
@@ -43,7 +44,7 @@ h2 {
 }
 p,
 li {
-  font-family: DM Sans;
+  font-family: "DM Sans";
 }
 .Preparation {
   background-color: #fff7fc;
@@ -59,4 +60,22 @@ li {
 
 .Preparation li {
   margin-bottom: 3px;
+}
+
+table {
+  margin: 0 auto;
+  width: 900px;
+  border-collapse: collapse;
+}
+table h3 {
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.right {
+  width: 50%;
+}
+table tr td {
+  border-bottom: 2px solid #b1a09f;
 }
