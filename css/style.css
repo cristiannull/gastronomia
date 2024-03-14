@@ -12,20 +12,24 @@ main {
   background-color: white;
   margin: 0 auto;
   max-width: 1000px;
-  text-align: center;
+  padding: 25px;
 }
-
-main img {
+#intro {
+  margin: auto;
   width: 950px;
+}
+#intro img {
+  width: 950px;
+  height: 380px;
   border-radius: 10px;
-  margin-top: 25px;
+  object-fit: cover;
 }
 
 main h1,
 main p,
 main h2 {
   text-align: left;
-  margin: 10px 25px 10px;
+  margin-bottom: 10px;
 }
 
 h1 {
@@ -42,14 +46,11 @@ li {
   font-family: DM Sans;
 }
 .Preparation {
-  max-width: 93%;
-  margin: 0 auto;
   background-color: #fff7fc;
   padding: 10px 15px;
   border-radius: 10px;
 }
 .Preparation h3 {
-  text-align: left;
   margin-bottom: 8px;
   color: #6b193b;
   font-family: "DM Serif Display";
@@ -57,11 +58,5 @@ li {
 }
 
 .Preparation li {
-  text-align: left;
   margin-bottom: 3px;
-}
-
-.Ingredients li {
-  text-align: left;
-  margin-left: 15px;
 }
