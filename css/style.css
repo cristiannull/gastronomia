@@ -18,6 +18,7 @@ main {
 main img {
   width: 950px;
   border-radius: 10px;
+  margin-top: 25px;
 }
 
 main h1,
